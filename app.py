@@ -12,36 +12,42 @@ app.config['PRODUTOS'] = {
         'id': 1, 
         'nome': 'Produto 1', 
         'preco': 10.00, 
+        'categoria': '1',
         'imagem_url': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Product_sample_icon_picture.png/640px-Product_sample_icon_picture.png'
     },
     2: {
         'id': 2, 
         'nome': 'Produto 2', 
         'preco': 20.00, 
+        'categoria': '1',
         'imagem_url': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Product_sample_icon_picture.png/640px-Product_sample_icon_picture.png'
     },
     3: {
         'id': 3, 
         'nome': 'Produto 3', 
         'preco': 30.00, 
+        'categoria': '1',
         'imagem_url': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Product_sample_icon_picture.png/640px-Product_sample_icon_picture.png'
     },
     4: {
         'id': 4, 
         'nome': 'Produto 4', 
         'preco': 40.00, 
+        'categoria': '2',
         'imagem_url': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Product_sample_icon_picture.png/640px-Product_sample_icon_picture.png'
     },
     5: {
         'id': 5, 
         'nome': 'Produto 5', 
         'preco': 50.00, 
+        'categoria': '2',
         'imagem_url': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Product_sample_icon_picture.png/640px-Product_sample_icon_picture.png'
     },
     6: {
         'id': 6, 
         'nome': 'Produto 6', 
         'preco': 60.00, 
+        'categoria': '2',
         'imagem_url': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Product_sample_icon_picture.png/640px-Product_sample_icon_picture.png'
     },
 }
