@@ -11,6 +11,7 @@
                 <tr class="bg-gray-100">
                     <th class="py-2 px-4 border-b text-left">Produto</th>
                     <th class="py-2 px-4 border-b text-left">Preço</th>
+                    <th class="py-2 px-4 border-b text-left">Quantidade</th>
                     <th class="py-2 px-4 border-b text-left">Ações</th>
                 </tr>
             </thead>
@@ -19,6 +20,7 @@
                 <tr class="hover:bg-gray-50">
                     <td class="py-2 px-4 border-b">{{ item.nome }}</td>
                     <td class="py-2 px-4 border-b">R$ {{ "%.2f"|format(item.preco) }}</td>
+                    <td class="py-2 px-4 border-b"></td>
                     <td class="py-2 px-4 border-b">
                         <!-- Botão para remover item -->
                         <form action="{{ url_for('remover_do_carrinho', produto_id=item.id) }}" method="post" class="inline">
